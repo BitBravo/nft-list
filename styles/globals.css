@@ -6,9 +6,16 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
+.main {
+  min-height: calc(100vh - 98px - 150px);
+  padding: 4rem 0;
+  flex: 1;
+}
+
+a, .link {
   color: inherit;
-  text-decoration: none;
+  cursor: pointer;
+  text-decoration: none !important;
 }
 
 * {
